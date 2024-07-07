@@ -1,0 +1,76 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<section id="about">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="section-title">
+						<div class="section-subtitle">About Us</div>
+						<h2 class="section-main-title"  style="color: darkblue">
+							<strong>HealthCarePro</strong>
+						</h2>
+					</div>
+
+					<div class="about-item">
+						<p style="color: darkblue">At HealthCarePro, we believe that efficient and effective hospital 
+						management is the cornerstone of delivering exceptional patient care. 
+						Our mission is to empower healthcare providers with state-of-the-art technology that 
+						streamlines operations, enhances patient experiences, and supports the highest 
+						standards of medical excellence.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about-1.jpg' %}">
+				 </div>
+				</div>
+            </div>
+
+			<div class="row mt-5">
+				<div class="col-sm-4">
+				 <div class="about-boxx">
+				   <img src="{% static 'images/about1.jpg' %}">
+				 </div>
+				</div>
+				<div class="col-sm-6 offset-sm-2">
+				<div class="about-item mt-5">
+					<h4 style="color: darkblue"> <b> Who We Are </b> </h4>
+						<p style="color: darkblue">HealthCarePro is a leading provider of comprehensive hospital 
+							management systems designed to meet the diverse needs of 
+							healthcare facilities. With a dedicated team of industry 
+							experts, software engineers, and support staff, we are 
+							committed to transforming the way hospitals operate through
+							 innovative and user-friendly solutions.
+						</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row mt-5">
+				<div class="col-sm-6">
+				<div class="about-item mt-5">
+					<h4 style="color: darkblue"><b>Join Us in Transforming Healthcare</b></h4>
+						<p style="color: darkblue">HealthCarePro is more than just a hospital management system; 
+						It's a partner in your journey towards excellence in healthcare
+						delivery. Together, we can create a future where every
+						patient receives the highest standard of care, 
+						and every healthcare provider has the tools they need to succeed.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about.jpg' %}">
+				 </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock%}
